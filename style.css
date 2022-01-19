@@ -1,0 +1,139 @@
+:root {
+    --black: black;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+img, picture, video, canvas, svg {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+input, button, textarea, select {
+    font: inherit;
+}
+
+h1, 
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    overflow-wrap: break-word;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    padding: 0;
+}
+
+h2, h3 {
+    text-align: center;
+}
+
+/* Not useful to me now, but will be when I start using React */
+/* 
+#root, #__next {
+    isolation: isolate;
+} */
+
+.bd {
+    border: 3px solid black;
+}
+
+.outer-container {
+    border: 3px solid green;
+}
+
+header {
+    height: 100px;
+    background: cornflowerblue;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-container {
+    height: 80px;
+    width: 80px;
+    background-color: white;
+}
+
+#hero-container {
+    height: calc(100vh - 100px);
+    text-align: center;
+    display: flex;
+}
+
+#hero-copy {
+    margin: auto;
+}
+
+.service {
+    text-align: center;
+    width: 80%;
+    background-color:  cornflowerblue;
+    margin: 10px auto;
+    padding: 10px;
+
+}
+
+.service-img {
+    width: 40px;
+    height: 40px;
+    margin: auto;
+}
+
+.project {
+    border: 1px solid orange;
+}
+
+.project-display {
+    height: 200px;
+    background-color: lightgreen;
+}
+
+form {
+    text-align: center;
+}
+
+.input-element {
+    display: flex;
+    flex-direction: column;
+}
+
+footer {
+    text-align: center;
+    padding: 25px;
+}
+
+
+
+
+
+
+
+
+
