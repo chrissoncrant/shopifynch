@@ -52,23 +52,27 @@ h2, h3 {
     text-align: center;
 }
 
-/* Not useful to me now, but will be when I start using React */
-/* 
-#root, #__next {
-    isolation: isolate;
-} */
+p {
+    text-align: center;
+    padding: 10px;
+    border: 2px solid black;
+}
+
+section {
+    padding: 10px;
+}
 
 .bd {
-    border: 3px solid black;
+    border: 2px solid black;
 }
 
 .outer-container {
-    border: 3px solid green;
+    border: 0px solid green;
 }
 
 header {
     height: 100px;
-    background: cornflowerblue;
+    border: 2px solid black;
     padding: 10px;
     display: flex;
     justify-content: space-between;
@@ -78,7 +82,7 @@ header {
 .logo-container {
     height: 80px;
     width: 80px;
-    background-color: white;
+    background-color: black;
 }
 
 #hero-container {
@@ -94,7 +98,7 @@ header {
 .service {
     text-align: center;
     width: 80%;
-    background-color:  cornflowerblue;
+    border: 2px solid black;
     margin: 10px auto;
     padding: 10px;
 
@@ -107,21 +111,38 @@ header {
 }
 
 .project {
-    border: 1px solid orange;
+    border: 2px solid black;
+    margin: 10px auto;
 }
 
 .project-display {
     height: 200px;
-    background-color: lightgreen;
+    border: 2px solid black;
+    margin: 10px;
 }
 
-form {
-    text-align: center;
+#headshot-container {
+    height: 130px;
+    width: 130px;
+    border: 2px solid black;
+    border-radius: 50%;
+    margin: 10px auto;
 }
 
 .input-element {
     display: flex;
     flex-direction: column;
+    margin: 10px auto;
+    padding: 10px;
+}
+
+form {
+    border: 2px solid black;
+}
+
+input[type="submit"] {
+    width: calc(100% - 20px);
+    margin: 10px;
 }
 
 footer {
