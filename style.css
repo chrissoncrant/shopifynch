@@ -55,7 +55,7 @@ h2, h3 {
 p {
     text-align: center;
     padding: 10px;
-    border: 2px solid black;
+    border: 0px solid black;
 }
 
 section {
@@ -73,7 +73,7 @@ section {
 header {
     height: 100px;
     border: 2px solid black;
-    padding: 10px;
+    padding: 10px 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -82,7 +82,14 @@ header {
 .logo-container {
     height: 80px;
     width: 80px;
-    background-color: black;
+    /* background-color: black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hamburger-container {
+    width: 30px;
 }
 
 #hero-container {
@@ -98,16 +105,19 @@ header {
 .service {
     text-align: center;
     width: 80%;
+    height: 320px;
     border: 2px solid black;
     margin: 10px auto;
     padding: 10px;
-
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .service-img {
-    width: 40px;
-    height: 40px;
-    margin: auto;
+    width: 100px;
+    height: 100px;
+    margin: 10px auto;
 }
 
 .project {
@@ -127,6 +137,7 @@ header {
     border: 2px solid black;
     border-radius: 50%;
     margin: 10px auto;
+    overflow: hidden;
 }
 
 .input-element {
